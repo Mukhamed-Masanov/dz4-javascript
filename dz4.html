@@ -10,28 +10,24 @@
 <body>
 <script>
     //1
-    //First task
     let a = +prompt('Enter a number'), b = a ** 2;
     alert(b);
 </script>
 
 <script>
     //2
-    //second task
-    let a1 = +prompt('enter first number'), a2 = +prompt('enter second number'), a3 = a1 / a2;
+    let a1 = +prompt('enter first number'), a2 = +prompt('enter second number'), a3 = (a1 + a2) /2;
     alert(a3);
 </script>
 
 <script>
     //3
-    //third task
     let b1 = +prompt('длина стороны'), b2 = b1 ** 2;
     alert('площадь квадрата=' + b2);
 </script>
 
 <script>
     //4
-    //fourth task
     let km = +prompt('введите километры');
     const mile = km * 0.621371;
     alert(`${km} km = ${mile} ml `);
@@ -39,7 +35,6 @@
 
 <script>
     //5
-    //fifth task
     let num1 = +prompt('введите число');
     let num2 = +prompt('введите число');
     let ans = num1 + num2, ans1 = num1 - num2, ans2 = num1 * num2, ans3 = num1 / num2;
@@ -48,9 +43,6 @@
 
 <script>
     //6
-    //sixth task
-    //a*x+b=0
-    //ax= -b
     let f = +prompt('ввведите f'), j = +prompt('ввведите j');
     let x = -j /f;
     alert(x);
@@ -58,15 +50,13 @@
 
 <script>
     //7
-    //seventh task
     let hour = +prompt('введите часы'), minute = +prompt('введите минуты');
-    let nextDayH = 24 - hour, nextDayM = 60 - minute;
+    let nextDayH = 23 - hour, nextDayM = 60 - minute;
     alert(`До следующего дня осталось ${nextDayH} часов/часа ${nextDayM} минут`);
 </script>
 
 <script>
     //8
-    //eighth task
     let threeNum = +prompt('введите трехзначное число'), decimal = threeNum / 10;
     decimal = Math.trunc(decimal);
     let secondNum = decimal % 10;
@@ -75,7 +65,6 @@
 
 <script>
     //9
-    //ninth task
     let fiveNum = +prompt('введите пятизначное число'), lastNum = fiveNum % 10;
     let fiveNum1 = fiveNum / 10;
     fiveNum1 = Math.trunc(fiveNum1);
@@ -84,7 +73,6 @@
 
 <script>
     //10
-    //tenth task
     let sell = +prompt('Сколько ты продал за месяц?'), salary = 250 + (sell * 0.1);
     alert(` Ты заработал ${salary}$`);
 </script>
